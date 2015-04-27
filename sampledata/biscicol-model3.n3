@@ -1,0 +1,59 @@
+@prefix dwc: <http://www.FillInAppropriateTDWGUrlHere.org/dwc.rdf#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix biocode: <http://www.biocode.org/biocode.rdf#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+# General Model here is make all relationships as "has"
+# Type of data is entered at all levels
+# Notes w/ meeting w/ rob & brian (1/27/2011)
+# ITEMS TO ADD TO THIS MODEL:
+# -Need predicate of hasName (http://col.latest.mol-lab.appspot.com/api/taxonomy?search=concolor)
+# -Geolocation (where is it)
+# -DateLastModified
+# (dwc:spec12345 bsc:hasDateLastModified bsc:2010-01-01???)
+
+bsc:has rdf:type owl:Class .
+bsc:has rdf:type owl:TransitiveProperty .
+
+# GUID Data Types - harvested from various data sources
+dwc:spec12345 rdf:type dwc:specimen;
+     <http://purl.org/dc/terms/modified> "2010-01-19T16:00:00Z" .
+dwc:spec21 rdf:type dwc:specimen;
+     <http://purl.org/dc/terms/modified> "2010-01-19T16:00:00Z" .
+<http://biocode.berkeley.edu/biocode.rdf#CE1 rdf:type biocode:collectingEvent;
+    <http://purl.org/dc/terms/modified> "2010-10-01:12-12-12";
+    geo:lon "-122.95371";
+    geo:lat "45.25530" .
+biocode:CE2 rdf:type biocode:collectingEvent;
+    <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12";
+    geo:lon "-122.95371";
+    geo:lat "44.25530" .
+biocode:tissue12345 rdf:type bsc:tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12" .
+biocode:tissue2  rdf:type bsc:tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12" .
+biocode:extract1  rdf:type biocode:extraction;
+     <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12" .
+biocode:tissue31 rdf:type biocode:tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12" .
+biocode:extract31 rdf:type biocode:extraction;
+     <http://purl.org/dc/terms/modified> "2011-01-01:12-12-12" .
+
+
+
+# Relationships between GUIDs - BiSciCol specific harvesters
+dwc:spec12345 bsc:relatedTo biocode:tissue31 .
+biocode:tissue31 bsc:relatedTo biocode:extract31 .
+dwc:spec12345 bsc:relatedTo biocode:tissue12345 .
+dwc:spec21 bsc:relatedTo biocode:tissue2 .
+biocode:CE1 bsc:relatedTo dwc:spec21 .
+biocode:CE2 bsc:relatedTo dwc:spec12345 .
+biocode:CE2 bsc:relatedTo dwc:spec12345b .
+biocode:tissue12345 bsc:relatedTo biocode:extract1 .
+
+# Transitive property knows specUnknown lineage via link to extract31
+dwc:specUnknown bsc:relatedTo biocode:extract31 .

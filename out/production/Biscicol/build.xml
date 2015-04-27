@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="biscicol" default="all">
+
+
+    <!-- BJS: instead of requiring the file below, just add the path to the JDK -->
+    <!--property file="biscicol-unix.properties"/-->
+    <property name="jdk.home.1.6" value="/usr"/>
+
+    <!-- Uncomment the following property if no tests compilation is needed -->
+    <!--
+   <property name="skip.tests" value="true"/>
+    -->
+
+    <!-- Compiler options -->
+
+    <property name="compiler.debug" value="on"/>
+    <property name="compiler.generate.no.warnings" value="off"/>
+    <property name="compiler.args" value=""/>
+    <property name="compiler.max.memory" value="128m"/>
+    <patternset id="ignored.files">
+        <exclude name="**/CVS/**"/>
+        <exclude name="**/SCCS/**"/>
+        <exclude name="**/RCS/**"/>
+        <exclude name="**/rcs/**"/>
+        <exclude name="**/.DS_Store/**"/>
+        <exclude name="**/.svn/**"/>
+        <exclude name="**/.pyc/**"/>
+        <exclude name="**/.pyo/**"/>
+        <exclude name="**/*.pyc/**"/>
+        <exclude name="**/*.pyo/**"/>
+        <exclude name="**/.git/**"/>
+        <exclude name="**/*.hprof/**"/>
+        <exclude name="**/_svn/**"/>
+        <exclude name="**/.hg/**"/>
+    </patternset>
+    <patternset id="library.patterns">
+        <include name="*.zip"/>
+        <include name="*.war"/>
+        <include name="*.egg"/>
+        <include name="*.ear"/>
+        <include name="*.swc"/>
+        <include name="*.jar"/>
+    </patternset>
+    <patternset id="compiler.resources">
+        <include name="**/?*.properties"/>
+        <include name="**/?*.xml"/>
+        <include name="**/?*.gif"/>
+        <include name="**/?*.png"/>
+        <include name="**/?*.jpeg"/>
+        <include name="**/?*.jpg"/>
+        <include name="**/?*.html"/>
+        <include name="**/?*.dtd"/>
+        <include name="**/?*.tld"/>
+        <include name="**/?*.ftl"/>
+    </patternset>
+
+    <!-- JDK definitions -->
+
+    <property name="jdk.bin.1.6" value="${jdk.home.1.6}/bin"/>
+    <path id="jdk.classpath.1.6">
+    </path>
+
+    <property name="project.jdk.home" value="${jdk.home.1.6}"/>
+    <property name="project.jdk.bin" value="${jdk.bin.1.6}"/>
+    <property name="project.jdk.classpath" value="jdk.classpath.1.6"/>
+
+
+    <!-- Project Libraries -->
+
+    <!-- BJS: instead of listing each JAR, switched this to use the "fileset" mechanism -->
+    <path id="library.lib.classpath">
+        <fileset dir="${basedir}/lib">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+
+    <!-- Application Server Libraries -->
+
+    <!-- Modules -->
+
+
+    <!-- Module Biscicol -->
+
+    <dirname property="module.biscicol.basedir" file="${ant.file}"/>
+
+
+    <property name="module.jdk.home.biscicol" value="${project.jdk.home}"/>
+    <property name="module.jdk.bin.biscicol" value="${project.jdk.bin}"/>
+    <property name="module.jdk.classpath.biscicol" value="${project.jdk.classpath}"/>
+
+    <property name="compiler.args.biscicol" value="${compiler.args}"/>
+
+    <property name="biscicol.output.dir" value="${module.biscicol.basedir}/out/production/Biscicol"/>
+    <property name="biscicol.testoutput.dir" value="${module.biscicol.basedir}/out/test/Biscicol"/>
+
+    <path id="biscicol.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="biscicol.module.production.classpath">
+        <path refid="${module.jdk.classpath.biscicol}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <!-- added by BJS -->
+    <path id="biscicol.module.buildtests.classpath">
+        <path refid="${module.jdk.classpath.biscicol}"/>
+        <pathelement location="${biscicol.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <!-- added by BJS -->
+    <path id="biscicol.module.runtests.classpath">
+        <path refid="${module.jdk.classpath.biscicol}"/>
+        <pathelement location="${biscicol.output.dir}"/>
+        <pathelement location="${biscicol.testoutput.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="biscicol.runtime.production.module.classpath">
+        <pathelement location="${biscicol.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="biscicol.module.classpath">
+        <path refid="${module.jdk.classpath.biscicol}"/>
+        <pathelement location="${biscicol.output.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+    <path id="biscicol.runtime.module.classpath">
+        <pathelement location="${biscicol.output.dir}"/>
+        <pathelement location="${biscicol.testoutput.dir}"/>
+        <path refid="library.lib.classpath"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.biscicol">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.biscicol">
+        <patternset refid="excluded.from.module.biscicol"/>
+    </patternset>
+
+    <path id="biscicol.module.sourcepath">
+        <dirset dir="/">
+            <include name="src"/>
+        </dirset>
+    </path>
+
+    <path id="biscicol.module.testsourcepath">
+        <pathelement location="unit_tests"/>
+    </path>
+
+
+    <target name="compile.module.biscicol" depends="compile.module.biscicol.production,compile.module.biscicol.tests"
+            description="Compile module Biscicol"/>
+
+    <target name="compile.module.biscicol.production" description="Compile module Biscicol; production classes">
+        <mkdir dir="${biscicol.output.dir}"/>
+        <javac destdir="${biscicol.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}"
+               srcdir="src" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.biscicol}/javac">
+            <compilerarg line="${compiler.args.biscicol}"/>
+            <bootclasspath refid="biscicol.module.bootclasspath"/>
+            <classpath refid="biscicol.module.production.classpath"/>
+            <patternset refid="excluded.from.compilation.biscicol"/>
+        </javac>
+
+        <copy todir="${biscicol.output.dir}">
+            <fileset dir="${module.biscicol.basedir}/src">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <!-- added by BJS -->
+    <target name="compile.module.biscicol.tests" depends="compile.module.biscicol.production"
+            description="compile module Biscicol; test classes" unless="skip.tests">
+        <mkdir dir="${biscicol.testoutput.dir}"/>
+        <javac destdir="${biscicol.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}"
+               memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.biscicol}/javac">
+            <compilerarg line="${compiler.args.biscicol}"/>
+            <bootclasspath refid="biscicol.module.bootclasspath"/>
+            <classpath refid="biscicol.module.buildtests.classpath"/>
+            <src refid="biscicol.module.testsourcepath"/>
+            <patternset refid="excluded.from.compilation.biscicol"/>
+        </javac>
+    </target>
+
+    <target name="clean.module.biscicol" description="cleanup module">
+        <delete dir="${biscicol.output.dir}"/>
+        <delete dir="${biscicol.testoutput.dir}"/>
+    </target>
+
+    <target name="init" description="Build initialization">
+        <!-- Perform any build initialization in this target -->
+    </target>
+
+    <target name="clean" depends="clean.module.biscicol" description="cleanup all"/>
+
+    <target name="build.modules" depends="init, clean, compile.module.biscicol, war" description="build all modules"/>
+
+    <target name="war" depends="compile.module.biscicol.production">
+        <war destfile="dist/biscicol.war" webxml="web/WEB-INF/web.xml">
+            <fileset dir="web"/>
+            <lib dir="lib" excludes="servlet-api.jar"/>
+            <classes dir="${biscicol.output.dir}"/>
+            <classes dir="" includes="xsl/*.*"/>
+            <classes dir="" includes="biscicolsettings.props"/>
+        </war>
+    </target>
+
+    <!-- added by BJS -->
+    <target name="test" depends="compile.module.biscicol">
+        <junit>
+            <classpath refid="biscicol.module.runtests.classpath"/>
+            <formatter type="brief" usefile="false"/>
+            <batchtest>
+                <fileset dir="${biscicol.testoutput.dir}" includes="**/*Test.class"/>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="all" depends="build.modules" description="build all"/>
+
+</project> 

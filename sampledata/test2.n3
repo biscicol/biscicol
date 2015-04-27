@@ -1,0 +1,38 @@
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/index.htm#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix biocode: <http://biocode.berkeley.edu/specimens/> .
+@prefix biocodeevent: <http://biocode.berkeley.edu/events/> .
+@prefix dcterms: <http://purl.org/dc/terms/modified> .
+
+ma:hasSource owl:inverseOf ma:isSourceOf .
+ma:hasSource rdfs:subPropertyOf ma:isRelatedTo .
+
+ma:isRelatedTo a owl:SymmetricProperty .
+bsc:relativeOf a owl:Class .
+bsc:relativeOf a owl:TransitiveProperty .
+ma:isRelatedTo rdfs:subPropertyOf bsc:relativeOf .
+
+
+# data objects
+biocodeevent:ID8 a dwc:Event;
+    dwc:DateLastModified "2011-01-01" .
+biocodeevent:ID9 a dwc:Event;
+    dwc:DateLastModified "2011-01-01" .
+biocode:ID9A a dwc:Occurrence;
+     dwc:DateLastModified "2010-01-19" .
+biocode:ID6B-2  a bsc:Tissue;
+     dwc:DateLastModified "2011-01-01" .
+biocode:ID6A-2  a bsc:Tissue;
+     dwc:DateLastModified "2011-01-01" .
+
+# relationships
+biocodeevent:ID9 ma:isSourceOf biocode:ID9A .
+biocode:ID6B-2 ma:hasSource biocode:ID6B .
+
+# sameAs specifications
+biocodeevent:ID8 owl:sameAs biocodeevent:ID7 .
+

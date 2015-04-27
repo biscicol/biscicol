@@ -1,0 +1,13 @@
+# GUIDs for the Biocode FIMS database are set using these scripts...
+# For now, these columns need to be set manually before triplifying
+# The ARKs are registered through EZID system
+
+#NOTE: These are deprecated and now stored in Biocode-exports java library
+update biocode set guid = concat('ark:/21547/R2',bnhm_id);
+update biocode_collecting_event set guid = concat('ark:/21547/S2',EventID);
+update biocode_tissue set guid = concat('ark:/21547/Q2',bnhm_id,'.',tissue_num);
+update biocode set taxonguid = concat('ark:/21547/T2',if(scientificname = "","",hex(scientificname)));
+
+# NOTE: biocode data i replace the default triplifier dataset designation with a proper DOI: doi:10.7286/V1154F0D
+This is done via:
+cat biocode-June2013.n3 | sed 's/urn:x-biscicol:biocode@darwin.berkeley.edu/doi:10.7286\/V1154F0D/' > outputFile.n3

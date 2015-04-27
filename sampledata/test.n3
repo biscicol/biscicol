@@ -1,0 +1,74 @@
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/index.htm#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix biocode: <http://biocode.berkeley.edu/specimens/> .
+@prefix biocodeevent: <http://biocode.berkeley.edu/events/> .
+
+
+ma:isRelatedTo a owl:SymmetricProperty .
+ma:isRelatedTo rdfs:subPropertyOf bsc:relativeOf .
+bsc:relativeOf a owl:TransitiveProperty .
+ma:hasSource owl:inverseOf ma:isSourceOf .
+ma:isSourceOf rdfs:subPropertyOf ma:isRelatedTo .
+
+
+# data objects
+biocodeevent:ID1 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocodeevent:ID2 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocodeevent:ID3 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocodeevent:ID4 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocode:ID1A a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+biocode:ID2A a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+biocode:ID3A  a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocode:ID3B  a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocode:ID3A-2  a bsc:Tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocodeevent:ID6 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocodeevent:ID7 a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+biocode:ID6A a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+biocode:ID6B a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+biocode:ID6A-2  a bsc:Tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+
+# Express Relations using the bsc source inverse
+biocodeevent:ID1 ma:isSourceOf biocode:ID1A .
+biocodeevent:ID2 ma:isSourceOf biocode:ID2A .
+biocodeevent:ID3 ma:isSourceOf biocode:ID3A .
+biocode:ID3A ma:isSourceOf biocode:ID3A-2 .
+biocodeevent:ID3 ma:isSourceOf biocode:ID3B .
+biocodeevent:ID6 ma:isSourceOf biocode:ID6A .
+biocodeevent:ID6 ma:isSourceOf biocode:ID6B .
+biocodeevent:ID7 ma:isSourceOf biocode:ID6B .
+biocode:ID6A ma:isSourceOf biocode:ID6A-2 .
+
+# Express Relations
+#biocode:ID1A ma:hasSource biocodeevent:ID1 .
+#biocode:ID2A ma:hasSource biocodeevent:ID2 .
+#biocode:ID3A ma:hasSource biocodeevent:ID3 .
+#biocode:ID3A-2 ma:hasSource biocode:ID3A .
+#biocode:ID3B ma:hasSource biocodeevent:ID3 .
+#biocode:ID6A ma:hasSource biocodeevent:ID6 .
+#biocode:ID6B ma:hasSource biocodeevent:ID6 .
+#biocode:ID6B ma:hasSource biocodeevent:ID7 .
+#biocode:ID6A-2 ma:hasSource biocode:ID6A .
+
+# sameAs specifications
+#biocodeevent:ID2 owl:sameAs biocodeevent:ID1 .
+#biocodeevent:ID2 owl:sameAs biocodeevent:ID3 .
+#biocodeevent:ID3 owl:sameAs biocodeevent:ID4 .
+

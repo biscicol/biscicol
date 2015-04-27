@@ -1,0 +1,78 @@
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/index.htm#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix biocode: <http://biocode.berkeley.edu/biocode/> .
+@prefix biocodeevent: <http://biocode.berkeley.edu/biocodeevent/> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix flmnh: <http://collections.flmnh.ufl.edu/collection_object/> .
+@prefix flmnhalias: <http://collections.flmnh.ufl.edu/collection_objects/alias/> .
+
+# General Model here is make all relationships as "relatedTo"
+bsc:relatedTo a owl:Class .
+bsc:relatedTo a owl:TransitiveProperty .
+
+# Global Object Datastore
+<http://biocode.berkeley.edu/biocode/spec12345> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19";
+     owl:sameAs <http://biocode.berkeley.edu/biocode/spec123> .
+<http://biocode.berkeley.edu/biocode/spec21> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+<http://biocode.berkeley.edu/biocodeevent/CE1> a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2010-10-01" .
+<http://biocode.berkeley.edu/biocodeevent/CE2> a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/tissue12345> a bsc:Tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/tissue2>  a bsc:Tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/extract1>  a bsc:Extraction;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/tissue31> a bsc:Tissue;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/extract31> a bsc:Extraction;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/spec12345b> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/spec12345c> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-01" .
+<http://biocode.berkeley.edu/biocode/FROMTEST1> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/biocode/annot1> a bsc:MachineAnnotation .
+<http://www.w3.org/2003/01/geo/wgs84_pos#43,-123> a geo:SpatialThing .
+<http://biocode.berkeley.edu/biocode/JOHNDECK> a bsc:Person .
+<http://collections.flmnh.ufl.edu/collection_object/UF:Mollusca:1> a dwc:Occurrence .
+<http://collections.flmnh.ufl.edu/collection_object/UF:Mollusca:1> owl:sameAs <http://biocode.berkeley.edu/biocode/spec12345b> .
+#<http://collections.flmnh.ufl.edu/collection_object/UFCE2> owl:sameAs <http://biocode.berkeley.edu/biocodeevent/CE2> .
+<http://biocode.berkeley.edu/biocodeevent/CE2> owl:sameAs  <http://collections.flmnh.ufl.edu/collection_objects/alias/UF:Mollusca:400666.rdf> .
+
+
+
+
+# Relations
+<http://biocode.berkeley.edu/biocode/spec12345b> bsc:relatedTo <http://biocode.berkeley.edu/biocode/person1> .
+<http://biocode.berkeley.edu/biocode/person1> bsc:relatedTo <http://biocode.berkeley.edu/biocodeevent/CE1> .
+
+<http://biocode.berkeley.edu/biocode/spec12345> bsc:relatedTo <http://biocode.berkeley.edu/biocode/tissue31> .
+<http://biocode.berkeley.edu/biocode/spec12345b> bsc:relatedTo <http://biocode.berkeley.edu/biocode/tissue31b> .
+<http://biocode.berkeley.edu/biocode/tissue31> bsc:relatedTo <http://biocode.berkeley.edu/biocode/extract31> .
+<http://biocode.berkeley.edu/biocode/spec12345> bsc:relatedTo <http://biocode.berkeley.edu/biocode/tissue12345> .
+<http://biocode.berkeley.edu/biocode/spec21> bsc:relatedTo <http://biocode.berkeley.edu/biocode/tissue2> .
+<http://biocode.berkeley.edu/biocodeevent/CE1> bsc:relatedTo <http://biocode.berkeley.edu/biocode/spec21> .
+<http://biocode.berkeley.edu/biocodeevent/CE2> bsc:relatedTo <http://biocode.berkeley.edu/biocode/spec12345> .
+<http://biocode.berkeley.edu/biocodeevent/CE2> bsc:relatedTo <http://biocode.berkeley.edu/biocode/spec12345c> .
+<http://biocode.berkeley.edu/biocodeevent/CE2> bsc:relatedTo <http://biocode.berkeley.edu/biocode/spec12345b> .
+<http://biocode.berkeley.edu/biocode/tissue12345> bsc:relatedTo <http://biocode.berkeley.edu/biocode/extract1> .
+<http://biocode.berkeley.edu/biocode/specUnknown> bsc:relatedTo <http://biocode.berkeley.edu/biocode/extract31> .
+<http://biocode.berkeley.edu/biocodeevent/1> bsc:relatedTo <http://biocode.berkeley.edu/biocode/FROMTEST1> .
+<http://biocode.berkeley.edu/biocode/spec21> bsc:relatedTo <http://biocode.berkeley.edu/biocode/annot1> .
+<http://biocode.berkeley.edu/biocode/annot1> bsc:relatedTo <http://www.w3.org/2003/01/geo/wgs84_pos#43,-123> .
+<http://biocode.berkeley.edu/biocode/annot1> bsc:relatedTo <http://biocode.berkeley.edu/biocode/JOHNDECK> .
+<http://biocode.berkeley.edu/biocode/spec12345c> bsc:relatedTo <http://biocode.berkeley.edu/biocode/tissue31c> .
+<http://collections.flmnh.ufl.edu/collection_object/UF:Mollusca:1> bsc:relatedTo <http://collections.flmnh.ufl.edu/collection_object/UFtissuec> .
+
+
+
+

@@ -1,0 +1,36 @@
+
+# the byte below will make this an invalid UTF-8 stream
+�
+
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/index.htm#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bsc: <http://biscicol.org/biscicol.rdf#> .
+@prefix biocode: <http://biocode.berkeley.edu/specimens/> .
+@prefix biocodeevent: <http://biocode.berkeley.edu/events/> .
+
+# General Model here is make all relationships as "relatedTo"
+bsc:relatedTo a owl:Class .
+bsc:relatedTo a owl:TransitiveProperty .
+owl:sameAs a owl:TransitiveProperty .
+
+# data objects
+# syntax mistake in the follow line: the "a" is missing
+<http://biocode.berkeley.edu/events/ID1> dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/events/ID2> a dwc:Event;
+    <http://purl.org/dc/terms/modified> "2011-01-01" .
+<http://biocode.berkeley.edu/specimens/ID1A> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+<http://biocode.berkeley.edu/specimens/ID2A> a dwc:Occurrence;
+     <http://purl.org/dc/terms/modified> "2010-01-19" .
+
+# relationships
+<http://biocode.berkeley.edu/events/ID1> bsc:relatedTo <http://biocode.berkeley.edu/specimens/ID1A> .
+<http://biocode.berkeley.edu/events/ID2> bsc:relatedTo <http://biocode.berkeley.edu/specimens/ID2A> .
+
+# sameAs specifications
+<http://biocode.berkeley.edu/events/ID2> owl:sameAs <http://biocode.berkeley.edu/events/ID1> .
+

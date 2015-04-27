@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Hypertree - Tree Animation</title>
+
+    <!-- CSS Files -->
+    <link type="text/css" href="base.css" rel="stylesheet"/>
+    <link type="text/css" href="Hypertree.css" rel="stylesheet"/>
+
+    <!--[if IE]>
+    <script language="javascript" type="text/javascript" src="../../Extras/excanvas.js"></script><![endif]-->
+
+    <!-- JIT Library File -->
+    <script language="javascript" type="text/javascript" src="jit.js"></script>
+
+    <!-- Example File -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script language="javascript" type="text/javascript" src="hypertree.js"></script>
+</head>
+
+<body onload="">
+<div id="container">
+
+    <div id="center-container">
+        <div id="infovis"></div>
+    </div>
+
+    <div id="right-container">
+
+        <div id="queryspot">
+            <div id="id-list">
+                <p><b>Query:</b>
+
+                <form id="hypertreeForm">
+                    <table>
+                        <tr>
+                            <td colspan=2>Try refreshing page if graph connections do not appear.</td>
+                        </tr>
+                        <!--<tr>
+                            <td>Graph</td>
+                            <td>
+                                <select name="graph" id="graph">
+                                    <option value="http://www.biscicol.org/biscicol3.rdf#">VertNet</option>
+                                    <option value="http://www.biscicol.org/biocode-June2013.rdf#" selected>Moorea
+                                        Biocode
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>-->
+                        <tr>
+                            <td>GUID</td>
+                            <td>
+                                <input type="text" name="guid" id="guid" style="width:200px;" value="doi:10.5072/FK2MK6P5Z"/>
+                                <input type=button name="Go" value="Go" onclick="init();return false;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan=2>
+                                <input type=radio name=querytype value=descendants> Descendants
+                                <input type=radio name=querytype value=ancestors checked=true> Ancestors
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <!--http://biocode.berkeley.edu/biocodeevent/CE2-->
+            </div>
+        </div>
+
+        <div id="status"></div>
+        <div id="inner-details">
+        </div>
+
+    </div>
+
+    <div id="log"></div>
+</div>
+</body>
+</html>

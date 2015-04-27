@@ -1,0 +1,2878 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix j.1: <http://biscicol.org/terms/index.html#> .
+@prefix j.3: <http://gensc.org/ns/mixs/> .
+@prefix j.5: <urn:> .
+@prefix pobo: <http://purl.obolibrary.org/obo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+j.3:NucleicAcidSequenceSource a rdfs:Class .
+
+j.3:Sequencing a rdfs:Class .
+
+pobo:OBI_0100051 a rdfs:Class .
+
+dcterms:Location a rdfs:Class .
+
+dwc:Event a rdfs:Class .
+
+dwc:Identification a rdfs:Class .
+
+dwc:Taxon a rdfs:Class .
+
+rdfs:Resource a rdfs:Class .
+
+<ark:/21547/FR2HER_100> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_100> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_101> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_101> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_85> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_85> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_86> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_86> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_88> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_88> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_89> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_89> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_90> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_90> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_92> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_92> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_93> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_93> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_94> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_94> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_95> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_95> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_96> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_96> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_97> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_97> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_98> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_98> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2HER_99> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2HER_99> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_745> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_745> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_746> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_746> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_747> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_747> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_748> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_748> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_749> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_749> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_750> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_750> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_752> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_752> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_753> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_753> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_754> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_754> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_755> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_755> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2LIZ_757> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2LIZ_757> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_957> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_957> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_958> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_958> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_959> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_959> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_960> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_960> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_961> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_961> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_962> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_962> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_963> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_963> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_964> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_964> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_966> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_966> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_967> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_967> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_968> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_968> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_969> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_969> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_970> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_970> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_971> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_971> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_973> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_973> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_974> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_974> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_975> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_975> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/FR2NIN_976> a dwc:Taxon ;
+    j.1:depends_on <ark:/21547/Fc2NIN_976> ;
+    dwc:genus "Apogon" ;
+    dwc:phylum "Chordata" ;
+    dwc:specificEpithet "doederleini" ;
+    dwc:vernacularName "cardinalfish" .
+
+<ark:/21547/Fb2HER_100> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_100> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_101> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_101> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_85> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_85> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_86> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_86> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_88> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_88> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_89> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_89> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_90> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_90> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_92> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_92> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_93> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_93> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_94> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_94> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_95> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_95> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_96> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_96> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_97> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_97> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_98> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_98> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2HER_99> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2HER_99> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-23.445300" ;
+    dwc:decimalLongitude "151.925500" ;
+    dwc:locality "Heron Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_745> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_745> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_746> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_746> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_747> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_747> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_748> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_748> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_749> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_749> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_750> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_750> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_752> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_752> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_753> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_753> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_754> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_754> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_755> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_755> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2LIZ_757> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2LIZ_757> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-14.676416666666666" ;
+    dwc:decimalLongitude "145.44696666666667" ;
+    dwc:locality "Lizard Island" ;
+    dwc:stateProvince "Queensland" .
+
+<ark:/21547/Fb2NIN_957> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_957> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_958> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_958> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_959> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_959> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_960> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_960> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_961> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_961> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_962> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_962> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_963> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_963> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_964> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_964> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_966> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_966> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_967> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_967> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_968> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_968> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_969> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_969> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_970> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_970> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_971> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_971> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_973> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_973> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_974> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_974> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_975> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_975> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fb2NIN_976> a dcterms:Location ;
+    j.1:depends_on <ark:/21547/FS2NIN_976> ;
+    dwc:coordinateUncertaintyInMeters "0" ;
+    dwc:country "Australia" ;
+    dwc:decimalLatitude "-5.083333" ;
+    dwc:decimalLongitude "113.8202" ;
+    dwc:locality "Ningaloo Reef" ;
+    dwc:stateProvince "Western Australia" .
+
+<ark:/21547/Fe2HER_100> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_100> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717878" .
+
+<ark:/21547/Fe2HER_101> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_101> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717879" .
+
+<ark:/21547/Fe2HER_85> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_85> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717880" .
+
+<ark:/21547/Fe2HER_86> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_86> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717881" .
+
+<ark:/21547/Fe2HER_88> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_88> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717882" .
+
+<ark:/21547/Fe2HER_89> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_89> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717883" .
+
+<ark:/21547/Fe2HER_90> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_90> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717884" .
+
+<ark:/21547/Fe2HER_92> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_92> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717885" .
+
+<ark:/21547/Fe2HER_93> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_93> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717886" .
+
+<ark:/21547/Fe2HER_94> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_94> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717887" .
+
+<ark:/21547/Fe2HER_95> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_95> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717888" .
+
+<ark:/21547/Fe2HER_96> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_96> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717889" .
+
+<ark:/21547/Fe2HER_97> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_97> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717890" .
+
+<ark:/21547/Fe2HER_98> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_98> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717891" .
+
+<ark:/21547/Fe2HER_99> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2HER_99> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717892" .
+
+<ark:/21547/Fe2LIZ_745> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_745> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717893" .
+
+<ark:/21547/Fe2LIZ_746> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_746> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717894" .
+
+<ark:/21547/Fe2LIZ_747> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_747> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717895" .
+
+<ark:/21547/Fe2LIZ_748> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_748> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717896" .
+
+<ark:/21547/Fe2LIZ_749> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_749> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717897" .
+
+<ark:/21547/Fe2LIZ_750> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_750> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717898" .
+
+<ark:/21547/Fe2LIZ_752> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_752> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717899" .
+
+<ark:/21547/Fe2LIZ_753> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_753> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717900" .
+
+<ark:/21547/Fe2LIZ_754> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_754> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717901" .
+
+<ark:/21547/Fe2LIZ_755> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_755> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717902" .
+
+<ark:/21547/Fe2LIZ_757> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2LIZ_757> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717903" .
+
+<ark:/21547/Fe2NIN_957> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_957> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717904" .
+
+<ark:/21547/Fe2NIN_958> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_958> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717905" .
+
+<ark:/21547/Fe2NIN_959> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_959> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717906" .
+
+<ark:/21547/Fe2NIN_960> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_960> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717907" .
+
+<ark:/21547/Fe2NIN_961> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_961> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717908" .
+
+<ark:/21547/Fe2NIN_962> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_962> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717909" .
+
+<ark:/21547/Fe2NIN_963> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_963> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717910" .
+
+<ark:/21547/Fe2NIN_964> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_964> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717911" .
+
+<ark:/21547/Fe2NIN_966> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_966> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717912" .
+
+<ark:/21547/Fe2NIN_967> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_967> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717913" .
+
+<ark:/21547/Fe2NIN_968> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_968> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717914" .
+
+<ark:/21547/Fe2NIN_969> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_969> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717915" .
+
+<ark:/21547/Fe2NIN_970> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_970> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717916" .
+
+<ark:/21547/Fe2NIN_971> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_971> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717917" .
+
+<ark:/21547/Fe2NIN_973> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_973> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717918" .
+
+<ark:/21547/Fe2NIN_974> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_974> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717919" .
+
+<ark:/21547/Fe2NIN_975> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_975> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717920" .
+
+<ark:/21547/Fe2NIN_976> a j.3:Sequencing ;
+    j.1:depends_on <ark:/21547/Fd2NIN_976> ;
+    j.3:nucleicAcidExtraction "salt" ;
+    j.3:targetGene "COI" ;
+    dwc:associatedSequences "JF717921" .
+
+j.1:depends_on a rdf:Property .
+
+j.3:nucleicAcidExtraction a rdf:Property .
+
+j.3:targetGene a rdf:Property .
+
+pobo:ENVO_00000428 a rdf:Property .
+
+pobo:ENVO_00002036 a rdf:Property .
+
+pobo:ENVO_00010483 a rdf:Property .
+
+pobo:IAO_0000185 a rdf:Property .
+
+pobo:PATO_0000122 a rdf:Property .
+
+pobo:PATO_0000128 a rdf:Property .
+
+pobo:UO_0000001 a rdf:Property .
+
+pobo:UO_0000002 a rdf:Property .
+
+dwc:associatedSequences a rdf:Property .
+
+dwc:class a rdf:Property .
+
+dwc:coordinateUncertaintyInMeters a rdf:Property .
+
+dwc:country a rdf:Property .
+
+dwc:decimalLatitude a rdf:Property .
+
+dwc:decimalLongitude a rdf:Property .
+
+dwc:eventRemarks a rdf:Property .
+
+dwc:family a rdf:Property .
+
+dwc:genus a rdf:Property .
+
+dwc:identifiedBy a rdf:Property .
+
+dwc:kingdom a rdf:Property .
+
+dwc:lifeStage a rdf:Property .
+
+dwc:locality a rdf:Property .
+
+dwc:materialSampleID a rdf:Property .
+
+dwc:maximumDepthInMeters a rdf:Property .
+
+dwc:minimumDepthInMeters a rdf:Property .
+
+dwc:occurrenceID a rdf:Property .
+
+dwc:order a rdf:Property .
+
+dwc:ownerInstitutionCode a rdf:Property .
+
+dwc:phylum a rdf:Property .
+
+dwc:preparations a rdf:Property .
+
+dwc:previousIdentifications a rdf:Property .
+
+dwc:recordedBy a rdf:Property .
+
+dwc:samplingProtocol a rdf:Property .
+
+dwc:specificEpithet a rdf:Property .
+
+dwc:stateProvince a rdf:Property .
+
+dwc:vernacularName a rdf:Property .
+
+j.5:basisOfIdentification a rdf:Property .
+
+j.5:dayCollected a rdf:Property .
+
+j.5:dayEntered a rdf:Property .
+
+j.5:dayIdentified a rdf:Property .
+
+j.5:enteredBy a rdf:Property .
+
+j.5:geneticTissueType a rdf:Property .
+
+j.5:monthCollected a rdf:Property .
+
+j.5:monthEntered a rdf:Property .
+
+j.5:monthIdentified a rdf:Property .
+
+j.5:permitInformation a rdf:Property .
+
+j.5:yearCollected a rdf:Property .
+
+j.5:yearEntered a rdf:Property .
+
+j.5:yearIdentified a rdf:Property .
+
+<ark:/21547/Fa2HER_100> a rdfs:Resource ;
+    dwc:materialSampleID "HER_100" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_101> a rdfs:Resource ;
+    dwc:materialSampleID "HER_101" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_85> a rdfs:Resource ;
+    dwc:materialSampleID "HER_85" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_86> a rdfs:Resource ;
+    dwc:materialSampleID "HER_86" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_88> a rdfs:Resource ;
+    dwc:materialSampleID "HER_88" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_89> a rdfs:Resource ;
+    dwc:materialSampleID "HER_89" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_90> a rdfs:Resource ;
+    dwc:materialSampleID "HER_90" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_92> a rdfs:Resource ;
+    dwc:materialSampleID "HER_92" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_93> a rdfs:Resource ;
+    dwc:materialSampleID "HER_93" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_94> a rdfs:Resource ;
+    dwc:materialSampleID "HER_94" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_95> a rdfs:Resource ;
+    dwc:materialSampleID "HER_95" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_96> a rdfs:Resource ;
+    dwc:materialSampleID "HER_96" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_97> a rdfs:Resource ;
+    dwc:materialSampleID "HER_97" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_98> a rdfs:Resource ;
+    dwc:materialSampleID "HER_98" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2HER_99> a rdfs:Resource ;
+    dwc:materialSampleID "HER_99" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_745> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_745" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_746> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_746" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_747> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_747" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_748> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_748" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_749> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_749" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_750> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_750" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_752> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_752" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_753> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_753" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_754> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_754" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_755> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_755" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2LIZ_757> a rdfs:Resource ;
+    dwc:materialSampleID "LIZ_757" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_957> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_957" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_958> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_958" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_959> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_959" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_960> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_960" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_961> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_961" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_962> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_962" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_963> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_963" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_964> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_964" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_966> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_966" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_967> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_967" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_968> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_968" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_969> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_969" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_970> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_970" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_971> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_971" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_973> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_973" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_974> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_974" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_975> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_975" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fa2NIN_976> a rdfs:Resource ;
+    dwc:materialSampleID "NIN_976" ;
+    dwc:ownerInstitutionCode "UQ- Riginos" ;
+    j.5:basisOfIdentification "Morphology" ;
+    j.5:dayEntered "7" ;
+    j.5:enteredBy "C.Riginos" ;
+    j.5:monthEntered "10" ;
+    j.5:yearEntered "2013" .
+
+<ark:/21547/Fc2HER_100> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_100> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_101> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_101> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_85> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_85> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_86> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_86> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_88> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_88> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_89> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_89> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_90> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_90> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_92> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_92> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_93> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_93> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_94> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_94> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_95> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_95> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_96> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_96> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_97> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_97> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_98> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_98> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2HER_99> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2HER_99> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "17" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2008" .
+
+<ark:/21547/Fc2LIZ_745> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_745> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_746> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_746> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_747> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_747> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_748> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_748> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_749> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_749> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_750> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_750> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_752> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_752> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_753> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_753> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_754> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_754> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_755> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_755> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2LIZ_757> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_757> ;
+    dwc:identifiedBy "Treml/Liggins" ;
+    j.5:dayIdentified "13" ;
+    j.5:monthIdentified "4" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_957> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_957> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_958> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_958> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_959> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_959> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_960> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_960> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_961> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_961> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_962> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_962> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_963> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_963> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_964> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_964> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_966> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_966> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_967> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_967> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_968> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_968> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_969> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_969> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_970> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_970> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_971> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_971> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_973> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_973> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_974> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_974> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_975> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_975> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fc2NIN_976> a dwc:Identification ;
+    j.1:depends_on <ark:/21547/FQ2NIN_976> ;
+    dwc:identifiedBy "Riginos/Treml" ;
+    j.5:dayIdentified "6" ;
+    j.5:monthIdentified "11" ;
+    j.5:yearIdentified "2009" .
+
+<ark:/21547/Fd2HER_100> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_100> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_101> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_101> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_85> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_85> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_86> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_86> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_88> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_88> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_89> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_89> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_90> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_90> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_92> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_92> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_93> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_93> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_94> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_94> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_95> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_95> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_96> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_96> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_97> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_97> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_98> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_98> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2HER_99> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2HER_99> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_745> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_745> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_746> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_746> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_747> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_747> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_748> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_748> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_749> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_749> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_750> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_750> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_752> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_752> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_753> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_753> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_754> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_754> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_755> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_755> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2LIZ_757> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2LIZ_757> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_957> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_957> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_958> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_958> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_959> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_959> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_960> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_960> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_961> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_961> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_962> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_962> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_963> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_963> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_964> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_964> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_966> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_966> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_967> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_967> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_968> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_968> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_969> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_969> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_970> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_970> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_971> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_971> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_973> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_973> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_974> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_974> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_975> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_975> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/Fd2NIN_976> a j.3:NucleicAcidSequenceSource ;
+    j.1:depends_on <ark:/21547/FQ2NIN_976> ;
+    j.5:geneticTissueType "muscle" .
+
+<ark:/21547/FQ2HER_100> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_100> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_101> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_101> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_85> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_85> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_86> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_86> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_88> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_88> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_89> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_89> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_90> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_90> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_92> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_92> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_93> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_93> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_94> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_94> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_95> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_95> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_96> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_96> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_97> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_97> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_98> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_98> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2HER_99> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2HER_99> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2LIZ_745> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_745> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_746> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_746> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_747> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_747> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_748> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_748> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_749> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_749> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_750> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_750> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_752> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_752> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_753> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_753> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_754> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_754> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_755> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_755> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2LIZ_757> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2LIZ_757> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "95% EtOH then frozen" ;
+    dwc:recordedBy "Treml/Liggins" .
+
+<ark:/21547/FQ2NIN_957> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_957> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_958> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_958> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_959> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_959> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_960> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_960> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_961> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_961> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_962> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_962> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_963> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_963> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_964> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_964> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_966> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_966> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_967> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_967> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_968> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_968> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_969> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_969> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_970> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_970> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_971> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_971> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_973> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_973> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_974> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_974> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_975> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_975> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FQ2NIN_976> a pobo:OBI_0100051 ;
+    j.1:depends_on <ark:/21547/FS2NIN_976> ;
+    pobo:IAO_0000185 "none" ;
+    dwc:lifeStage "adult" ;
+    dwc:occurrenceID "none" ;
+    dwc:preparations "DMSO then frozen" ;
+    dwc:recordedBy "Riginos/Treml" .
+
+<ark:/21547/FS2HER_100> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_100> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_101> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_101> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_85> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_85> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_86> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_86> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_88> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_88> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_89> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_89> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_90> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_90> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_92> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_92> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_93> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_93> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_94> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_94> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_95> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_95> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_96> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_96> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_97> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_97> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_98> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_98> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2HER_99> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2HER_99> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "lagoon" ;
+    dwc:maximumDepthInMeters "3" ;
+    dwc:minimumDepthInMeters "3" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "17" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "G08/28114.1, Queensland Government" ;
+    j.5:yearCollected "2008" .
+
+<ark:/21547/FS2LIZ_745> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_745> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_746> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_746> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_747> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_747> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_748> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_748> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_749> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_749> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_750> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_750> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_752> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_752> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_753> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_753> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_754> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_754> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_755> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_755> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2LIZ_757> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2LIZ_757> ;
+    pobo:ENVO_00000428 "Northeast Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "patch reef" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "13" ;
+    j.5:monthCollected "4" ;
+    j.5:permitInformation "G09/281114.1: GBRMPA; 118636 - QLD Fisheries" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_957> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_957> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_958> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_958> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_959> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_959> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_960> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_960> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_961> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_961> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_962> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_962> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_963> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_963> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_964> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_964> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_966> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_966> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_967> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_967> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_968> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_968> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_969> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_969> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_970> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_970> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_971> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_971> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_973> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_973> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_974> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_974> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_975> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_975> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .
+
+<ark:/21547/FS2NIN_976> a dwc:Event ;
+    j.1:depends_on <ark:/21547/Fa2NIN_976> ;
+    pobo:ENVO_00000428 "Northwest Australian Shelf" ;
+    pobo:ENVO_00002036 "Coral Reef" ;
+    dwc:eventRemarks "bommie in South Passage" ;
+    dwc:maximumDepthInMeters "5" ;
+    dwc:minimumDepthInMeters "5" ;
+    dwc:samplingProtocol "whole fish" ;
+    j.5:dayCollected "6" ;
+    j.5:monthCollected "11" ;
+    j.5:permitInformation "SF006619/CE002227 WA-DEC" ;
+    j.5:yearCollected "2009" .

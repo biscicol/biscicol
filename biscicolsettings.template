@@ -1,0 +1,82 @@
+# inference model used in rest.search
+search_ontModelSpec = RDFS_MEM
+#search_ontModelSpec = OWL_LITE_MEM_RULES_INF
+
+#------------------
+# virtuoso options
+#------------------
+
+# connection settings
+virt_user = virt_user
+virt_pass = virt_pass
+virt_url = jdbc:virtuoso://flmnh-biscicol.flmnh.ufl.edu:1111/charset=UTF-8
+#url = jdbc:virtuoso://localhost:1111/charset=UTF-8
+
+# component graph definitions
+virt_relations = http://www.biscicol.org/relations3.rdf#
+virt_objects = http://www.biscicol.org/god3.rdf#
+
+#------------------
+# Loading properties
+#------------------
+
+# Load options are 0=all, 1=main, 2=relations, 3=god
+option = 0
+
+# Debug will print out debug statements to examine functioning/working of loading
+debug = true
+
+# Virtuoso Options -- Incoming Graph Options
+user = user
+pass = pass
+#url = jdbc:virtuoso://flmnh-biscicol.flmnh.ufl.edu:1111/charset=UTF-8
+url = jdbc:virtuoso://localhost:1111/charset=UTF-8
+
+# mainGraph Definition --- this graph loads the entire dataset
+mainGraph = http://www.biscicol.org/biscicol3.rdf#
+#mainGraph = http://test
+
+# Individual graphs to load--- these come from files
+graphs = /home/jdeck/loadfiles/biocode.all.n3;/home/jdeck/loadfiles/flmnh.all.n3
+#graphs = /tmp/testLoad2.n3
+
+# Indexed Graph Names
+relationsGraph = http://www.biscicol.org/testrelations.rdf#
+godGraph = http://www.biscicol.org/testgod.rdf#
+
+# Reasoning for Relations Option (currently only allows "0")
+# options are 0=NONE, 1=PELLET, 2=HERMIT, 3=OWL_MEM_RULE_INF, 4=JENA_CUSTOM_RULES
+relationsReasoner = 0
+
+# Temporary file locations (processing locations)
+relationsFile = /tmp/relationstest.nt
+godFile = /tmp/godtest.nt
+
+# RDF Terms to use -- Be Careful modifying these terms!
+type = http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+geo = http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+datelastmodified = http://purl.org/dc/terms/modified
+hasSource = http://www.w3.org/ns/ma-ont#hasSource
+isSourceOf = http://www.w3.org/ns/ma-ont#isSourceOf
+relativeOf = http://biscicol.org/biscicol.rdf#relativeOf
+sameas = http://www.w3.org/2002/07/owl#sameAs
+agent = http://biscicol.org/biscicol.rdf#Agent
+isRelatedTo = http://www.w3.org/ns/ma-ont#isRelatedTo
+
+# BCID; EZID creation default account
+eziduser = apitest
+ezidpass = PutSomePasswordHere
+
+# Mysql username/password
+bcidUser = user
+bcidPassword = password
+bcidUrl = jdbc:mysql://darwin.berkeley.edu:3306/biscicoltest
+bcidClass = com.mysql.jdbc.Driver
+bcidShoulder = ark:/99999/fk4
+doiShoulder = doi:10.5072/FK2
+bcidStartingNumber = 900
+
+janrainapikey = SECRETKEY
+janrainbaseurl = https://biocode-commons-identifiers.rpxnow.com/
+
+

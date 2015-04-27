@@ -1,0 +1,75 @@
+#----------------
+#
+# This document describes all test data files used for unit testing the BiSciCol code.
+#
+#----------------
+
+
+#----------------
+# test-bad_syntax.n3
+#----------------
+A greatly simplified version of test.n3 with intentionally broken syntax for testing
+exception generation in FileBSCModel.
+
+#----------------
+# test-bad_utf8.n3
+#----------------
+A file that contains mostly valid N3 text, but also contains a single byte >0x7f that
+makes the UTF-8 character stream invalid.
+
+
+#----------------
+# test.n3
+#
+# RDF data for testing the BSC core functionality.
+#----------------
+
+#
+# Test cases for relatedTo and sameAs.
+#
+
+1. Test simple relationship
+    (ID1 relatedTo ID1A)
+2. Test transitive relatedTo
+    (ID3 relatedTo ID3A relatedTo ID3A-2)
+3. Test sameAs expression left to Right
+    (ID2 sameAs ID1) -> infer ID2 relatedTo ID1A and ID1 relatedTo ID2A
+4. Test sameAs expression right to left
+    (ID2 sameAs ID3) -> infer ID3 relatedTo ID2A and ID2 relatedTo ID3A
+5. Test sameAs transitivity
+    (ID2 sameAs ID1; ID2 sameAs ID3 sameAs ID4) -> infer all expected relations
+6. Test parental relations behaviour
+    (ID5 relatedTo ID1A AND ID1 relatedTo ID1A) ->
+        Descendents:  ID4 relatedTo ID1A OR ID1 relatedTo ID1A
+        Ancestors: ID1A leadsTo ID4 AND ID1
+
+
+
+#
+# Test cases included for testing BSCObject
+#
+
+1. child cases
+	a. items with one child (ID3A, ID6A, ID7)
+	b. items with multiple inferred children (ID1, ID2, ID3, ID4)
+	c. item with multiple explicit children (ID6)
+	d. items with no children (ID1A, ID2A, etc.)
+
+2. parent cases
+	a. item with one parent (ID3A2, ID6A, ID6A-2)
+	b. items with multiple inferred parents (ID1A, ID2A, etc.)
+	c. item with multiple explicit parents (ID6B)
+	d. items with no parents (ID1, ID2, etc.)
+
+
+#----------------
+# test2.n3
+#
+# A secondary RDF file for testing model combining.
+#----------------
+
+1. independent parent/child relationship (ID9 -> ID9A)
+2. sameAs cross-model link (ID8 -> ID7)
+3. relatedTo/leadsTo/comesFrom cross-model link (ID6B-2 -> ID6B)
+4. a duplicate object (ID6A-2)
+

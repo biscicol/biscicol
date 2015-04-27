@@ -1,0 +1,476 @@
+@prefix urn:     <http://biscicol.org/terms/index.html#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ro:      <http://www.obofoundry.org/ro/ro.owl#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix map:     <file:///Users/jdeck/IdeaProjects/biocode-fims/tripleOutput/DEMOT3_output.mapping.n3> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bsc:     <http://biscicol.org/terms/index.html#> .
+@prefix ark:     <http://biscicol.org/id/ark:> .
+
+<ark:/21547/Ik218175dc0968834e1a8333634bb9d5929>
+      a       <http://rs.tdwg.org/dwc/terms/Taxon> ;
+      bsc:depends_on <ark:/21547/Ij2eb0c4dda2ba00d36da9ce30fa42ed50a> , <ark:/21547/Ij2d0e78ed6468ae8761d830d2a8252a31b> ;
+      <http://rs.tdwg.org/dwc/terms/genus>
+              "Apogon" ;
+      <http://rs.tdwg.org/dwc/terms/specificEpithet>
+              "doederleini" .
+
+<ark:/21547/Ii2UQ:Fish:19>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:19" .
+
+<ark:/21547/Ik2bf67aaab3c6b3c5a82ecfec3e1c19428>
+      a       <http://rs.tdwg.org/dwc/terms/Taxon> ;
+      bsc:depends_on <ark:/21547/Ij2cf9f2e63c2a32f8010887b79e4ac9637> ;
+      <http://rs.tdwg.org/dwc/terms/genus>
+              "Apogon" .
+
+<ark:/21547/Ih2LIZ_750>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_750" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:17> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B09" .
+
+<ark:/21547/Ih2LIZ_748>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_748" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:15> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B07" .
+
+<ark:/21547/Ii2UQ:Fish:7>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:7" .
+
+<ark:/21547/Ih2HER_86>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_86" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A04" .
+
+<ark:/21547/Ih2LIZ_754>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_754" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:20> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B12" .
+
+<ark:/21547/Ih2HER_96>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_96" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:8> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A12" .
+
+<ark:/21547/Ii2UQ:Fish:15>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:15" .
+
+<ark:/21547/Ih2HER_95>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_95" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:7> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A11" .
+
+<ttp://rs.tdwg.org/dwc/terms/Occurrence>
+      a       rdfs:Class .
+
+<ark:/21547/Ii2UQ:Fish:11>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:11" .
+
+ro:derives_from
+      a       rdf:Property .
+
+<urn:yearIdentified>
+      a       rdf:Property .
+
+<ark:/21547/Ih2HER_90>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_90" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:3> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A07" .
+
+<urn:plate>
+      a       rdf:Property .
+
+<ark:/21547/Ih2LIZ_749>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_749" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:16> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B08" .
+
+<ark:/21547/Ih2HER_101>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_101" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:1> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A02" .
+
+<ark:/21547/Ij2d0e78ed6468ae8761d830d2a8252a31b>
+      a       <http://rs.tdwg.org/dwc/terms/Identification> ;
+      bsc:depends_on <ark:/21547/Ii2UQ:Fish:10> , <ark:/21547/Ii2UQ:Fish:9> , <ark:/21547/Ii2UQ:Fish:5> , <ark:/21547/Ii2UQ:Fish:3> , <ark:/21547/Ii2UQ:Fish:4> , <ark:/21547/Ii2UQ:Fish:7> , <ark:/21547/Ii2UQ:Fish:11> , <ark:/21547/Ii2UQ:Fish:8> , <ark:/21547/Ii2UQ:Fish:6> , <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:basisOfIdentification>
+              "Morphology" ;
+      <urn:dayIdentified> "17" ;
+      <urn:identifiedBy> "Riginos/Treml" ;
+      <urn:monthIdentified>
+              "11" ;
+      <urn:yearIdentified>
+              "2008" .
+
+<http://rs.tdwg.org/dwc/terms/genus>
+      a       rdf:Property .
+
+<urn:basisOfIdentification>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:8>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:8" .
+
+bsc:related_to
+      a       rdf:Property .
+
+<http://rs.tdwg.org/dwc/terms/occurrenceID>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:2>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> , <ark:/21547/Ik2bf67aaab3c6b3c5a82ecfec3e1c19428> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:2" .
+
+<ark:/21547/Ii2UQ:Fish:1>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik2bf67aaab3c6b3c5a82ecfec3e1c19428> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:1" .
+
+<ark:/21547/Ij2eb0c4dda2ba00d36da9ce30fa42ed50a>
+      a       <http://rs.tdwg.org/dwc/terms/Identification> ;
+      bsc:depends_on <ark:/21547/Ii2UQ:Fish:20> , <ark:/21547/Ii2UQ:Fish:19> , <ark:/21547/Ii2UQ:Fish:13> , <ark:/21547/Ii2UQ:Fish:16> , <ark:/21547/Ii2UQ:Fish:15> , <ark:/21547/Ii2UQ:Fish:14> , <ark:/21547/Ii2UQ:Fish:18> , <ark:/21547/Ii2UQ:Fish:12> , <ark:/21547/Ii2UQ:Fish:17> ;
+      <urn:basisOfIdentification>
+              "Morphology" ;
+      <urn:dayIdentified> "13" ;
+      <urn:identifiedBy> "Treml/Liggins" ;
+      <urn:monthIdentified>
+              "4" ;
+      <urn:yearIdentified>
+              "2009" .
+
+<ark:/21547/Ih2HER_97>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_97" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:9> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B01" .
+
+<ark:/21547/Ih2LIZ_745>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_745" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:12> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B04" .
+
+<ark:/21547/Ih2HER_94>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_94" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:6> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A10" .
+
+<urn:geneticTissueTypeDestructive>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:16>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:16" .
+
+<urn:dayIdentified>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:12>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:12" .
+
+<ark:/21547/Ih2HER_100>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_100" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:1> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A01" .
+
+<ark:/21547/Ih2LIZ_746>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_746" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:13> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B05" .
+
+<ark:/21547/Ih2HER_88>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_88" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A05" .
+
+<ark:/21547/Ih2LIZ_752>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_752" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:18> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B10" .
+
+<ark:/21547/Ii2UQ:Fish:9>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:9" .
+
+<ark:/21547/Ij2cf9f2e63c2a32f8010887b79e4ac9637>
+      a       <http://rs.tdwg.org/dwc/terms/Identification> ;
+      bsc:depends_on <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:basisOfIdentification>
+              "Morphology" ;
+      <urn:dayIdentified> "17" ;
+      <urn:identifiedBy> "Treml" ;
+      <urn:monthIdentified>
+              "11" ;
+      <urn:yearIdentified>
+              "2008" .
+
+<http://rs.tdwg.org/dwc/terms/Identification>
+      a       rdfs:Class .
+
+<ark:/21547/Ii2UQ:Fish:5>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:5" .
+
+<ark:/21547/Ii2UQ:Fish:3>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:3" .
+
+bsc:depends_on
+      a       rdf:Property .
+
+<http://rs.tdwg.org/dwc/terms/specificEpithet>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:17>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:17" .
+
+<http://rs.tdwg.org/dwc/terms/materialSampleID>
+      a       rdf:Property .
+
+<ark:/21547/Ih2HER_93>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_93" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:5> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A09" .
+
+<ark:/21547/Ii2UQ:Fish:20>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:20" .
+
+<http://rs.tdwg.org/dwc/terms/Taxon>
+      a       rdfs:Class .
+
+<urn:identifiedBy>
+      a       rdf:Property .
+
+<ark:/21547/Ii2UQ:Fish:13>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:13" .
+
+<ark:/21547/Ih2HER_98>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_98" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:10> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B02" .
+
+<urn:well>
+      a       rdf:Property .
+
+<ark:/21547/Ih2LIZ_753>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_753" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:19> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B11" .
+
+<http://purl.obolibrary.org/obo/bco_0000036>
+      a       rdfs:Class .
+
+<ark:/21547/Ih2LIZ_747>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "LIZ_747" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:14> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B06" .
+
+<ark:/21547/Ii2UQ:Fish:10>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:10" .
+
+<ark:/21547/Ii2UQ:Fish:18>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:18" .
+
+<ark:/21547/Ii2UQ:Fish:4>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:4" .
+
+<ark:/21547/Ih2HER_85>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_85" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A03" .
+
+<ark:/21547/Ii2UQ:Fish:6>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:6" .
+
+<ark:/21547/Ih2HER_89>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_89" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:2> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A06" .
+
+<ark:/21547/Ih2HER_92>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_92" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:4> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "A08" .
+
+<ark:/21547/Ih2HER_99>
+      a       <http://purl.obolibrary.org/obo/bco_0000036> ;
+      <http://rs.tdwg.org/dwc/terms/materialSampleID>
+              "HER_99" ;
+      ro:derives_from <ark:/21547/Ii2UQ:Fish:11> ;
+      <urn:geneticTissueTypeDestructive>
+              "muscle" ;
+      <urn:plate> "plate1" ;
+      <urn:well> "B03" .
+
+<ark:/21547/Ii2UQ:Fish:14>
+      a       <ttp://rs.tdwg.org/dwc/terms/Occurrence> ;
+      bsc:related_to <ark:/21547/Ik218175dc0968834e1a8333634bb9d5929> ;
+      <http://rs.tdwg.org/dwc/terms/occurrenceID>
+              "UQ:Fish:14" .
+
+<urn:monthIdentified>
+      a       rdf:Property .

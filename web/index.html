@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>BiSciCol Interface</title>
+
+    <link rel="stylesheet" type="text/css" href="biscicol.css" />
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="biscicol.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="jquery.jstree.js"></script>
+    <script type="text/javascript" src="jquery.parsequery.min.js"></script>
+
+</head>
+
+<body>
+
+<table id="wholePage">
+	<tr><td colspan="2" id="top"><h1>BiSciCol Prototype</h1></td></tr>
+
+	<tr><td id="leftnav">
+
+        <form id="searchForm" action="">
+            <table>
+                <tr><td colspan="2">Click a sample GUID to fill in the ID field</td></tr>
+                <tr>
+                    <td colspan="2"><a href='#'
+                           onclick='document.getElementById("id").value = "http://biocode.berkeley.edu/events/91";'>http://biocode.berkeley.edu/events/91</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href='#'
+                           onclick='document.getElementById("id").value = "http://collections.flmnh.ufl.edu/collection_objects/alias/UF:Mollusca:400666.rdf";'>http://collections.flmnh.../UF:Mollusca:400666.rdf</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href='#'
+                           onclick='document.getElementById("id").value = "http://biocode.berkeley.edu/specimens/MBIO2925";'>http://biocode.berkeley.edu/specimens/MBIO2925</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>GUID</td>
+                    <td><input type="text" id="id" name="id" size="36" /></td>
+                </tr>
+                <!--<tr>
+                    <td>Prefix</td>
+                    <td>
+                        <select name="collection" >
+                        <option value="">Using Fully Qualified ID</option>
+                        <option value="biocodeevent" selected>Biocode Events</option>
+                        <option value="biocode">Biocode Specimens and Tissues</option>
+                        <option value="biocodelims">Biocode Lims</option>
+                        <option value="flmnh">FLMNH</option>
+                        </select>
+                    </td>
+                </tr>-->
+                <!--
+                <tr>
+                    <td>Modification<br/>Date</td>
+                    <td>
+                        <select name="dateLastModified">
+                            <option value="" selected="selected">All</option>
+                            <option value="lastday">Last Day</option>
+                            <option value="lastweek">Last Week</option>
+                            <option value="lastmonth">Last Month</option>
+                            <option value="lastyear">Last Year</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Search Type</td>
+                    <td>
+                        <select name="searchType">
+                            <option value="descendents">descendents</option>
+                            <option value="ancestors">ancestors</option>
+                            <option value="siblings">siblings</option>
+                            <option value="relations">all</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Max Depth</td>
+                    <td>
+                        <select name="distance">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="selected">10</option>
+                        </select>
+                    </td>
+                </tr>
+                -->
+                <input type=hidden name=dateLastModified value="">
+                <input type=hidden name=searchType value=descendents>
+                <input type=hidden name=distance value=10>
+                <tr>
+                    <td>Output Type</td>
+                    <td>
+                        <input type="radio" name="outputType" value="tree" />Tree<br/>
+                        <input type="radio" name="outputType" value="table" />Table<br/>
+                        <input type="radio" name="outputType" value="byType" checked="checked" />By Type<br/>
+                        <!--<input type="radio" name="outputType" value="Image" />Image<br/>-->
+                        <input type="radio" name="outputType" value="kml" />Map<br/>
+                        <!--<input type="radio" name="outputType" value="N3" disabled />N3<br/>-->
+                    </td>
+                </tr>
+				<tr>
+					<td>Use models</td>
+					<td id="models" />
+				</tr>
+            </table>
+
+            <input type="submit" value="GO" />
+            <input type="button" value="Add to Watch" onclick="return runAddToWatch(this.form);" disabled="disabled" />
+
+        </form>
+        <hr />
+        Upload model from local file:<br/>
+		<form id="uploadLocalForm" enctype="multipart/form-data" method="post" action="" target="uploadTarget">
+			<input type="file" name="file" size="38" /><br/>
+			<input type="submit" name="submitBtn" value="Upload" />
+		</form>
+        <hr />
+        Load model from URL:<br/>
+		<form id="loadUrlForm" method="post" action="" target="uploadTarget">
+			<input type="text" name="url" size="38" /><br/>
+            <!--Language: <input type="radio" name="lang" value="RDF/XML" checked>RDF/XML&nbsp;
+            <input type="radio" name="lang" value="N3">N3&nbsp;
+            <input type="radio" name="lang" value="TURTLE">TURTLE<br>  -->
+			<input type="submit" name="submitBtn" value="Load" />
+		</form>
+        <hr />
+        <div id="status"></div>
+		<iframe id="uploadTarget" name="uploadTarget" ></iframe>
+	</td>
+	<td id="resultContainer"><div id="HTMLresult"></div></td></tr>
+
+	<tr><td colspan="2" id="footer">
+		<a id="w3c" href="http://validator.w3.org/check?uri=referer"><img src="images/valid-xhtml10.png" title="W3C HTML validator" alt="Valid XHTML 1.0" height="31" width="88" /></a>
+		BiSciCol is funded from a grant from the National Science Foundation. News and updates via our <a href="http://biscicol.blogspot.com/">blog</a>
+	</td></tr>
+</table>
+
+</body>
+</html>
